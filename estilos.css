@@ -1,0 +1,192 @@
+.informacionPersonal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 10px;
+    gap: 10px;
+    top: 20px;
+    position: fixed;
+    width: 300px;
+    height: 720px;
+    left: 0px;
+    top: 0px;
+    background: #0008C0;
+}
+
+.foto img {
+	border: 2px solid white;
+    border-radius: 150px;
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	object-position: left;
+}
+
+.botonContenedor {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.boton {
+    position: relative;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+.seleccionado {
+    transform: rotate(-180deg);
+}
+
+.boton::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 7px;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 14px solid white;
+}
+
+.titulo {
+    font-size: 1em;
+	font-family: 'Roboto Slab', sans-serif;
+	line-height: 3;
+	font-weight: 10;
+    color: white;
+}
+
+.datosTexto {
+    font-size: 1em;
+	font-family: 'Roboto Slab', sans-serif;
+	line-height: 3;
+	font-weight: 10;
+    color: white;
+}
+
+
+.menu {
+    background-color:  white;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menuLista {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.menuLinea {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-bottom: 1px solid #0008C0;
+}
+
+.menuLinea a {
+    color: #0008C0;
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.menuLinea i {
+    font-size: 20px;
+}
+
+.menuLinea a:hover {
+    background-color: #282ec1;
+    color: white;
+}
+
+.oculto{
+    display:none !important;
+}
+
+
+.informacionPersonalReducido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 10px;
+    gap: 10px;
+    top: 20px;
+    position: fixed;
+    width: 30px;
+    height: 720px;
+    left: 0px;
+    top: 0px;
+    background: #0008C0;
+}
+
+.datosTextoReducido {
+    width: 100%;
+    padding: 50px;
+    display:flex;
+    align-items: center;
+    font-size:1em;
+	font-family: 'Roboto Slab', sans-serif;
+	line-height: 2;
+	font-weight: 8;
+    color: white;
+}
+
+
+.fotoReducido img {
+	border: 2px solid white;
+    border-radius: 150px;
+	width: 40px;
+	height: 40px;
+	object-fit: cover;
+	object-position: left;
+}
+
+.tituloExperienciaHabilidades {
+    font-family: 'Roboto Slab', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 25px;
+}
+
+.experiencia {
+    display: fixed;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    position: relative;
+    width: 980px;
+    height: 720px;
+    left: 320px;
+    top: 0px;
+}
+
+.habilidades{
+    display: fixed;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    position: relative;
+    width: 980px;
+    height: 720px;
+    left: 320px;
+    top: 0px;
+}
+
+.texto{
+    clear: left;
+    text-align: right;
+    vertical-align: middle;
+    line-height:25px;
+}
